@@ -1,0 +1,5 @@
+
+// simply renders an html page
+exports.index = function(req, res, next) {
+    res.render('index', { title: 'Express' });
+  }
